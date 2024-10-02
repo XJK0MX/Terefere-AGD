@@ -64,15 +64,20 @@
     "modid": "terefereagd",
     "modName": "Terefere\u0026AGD",
     "version": "1.0.0",
-    "author": "Jakub i Adam, MCreator",
+    "author": "XJK0MX",
     "websiteURL": "https://mcreator.net",
-    "license": "Not specified",
+    "license": "All Rights Reserved",
     "serverSideOnly": false,
-    "requiredMods": [],
+    "requiredMods": [
+      "geckolib"
+    ],
     "dependencies": [],
     "dependants": [],
-    "mcreatorDependencies": [],
+    "mcreatorDependencies": [
+      "geckolib"
+    ],
     "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.terefereagd"
   },
   "mcreatorVersion": 202400232117
