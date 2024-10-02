@@ -33,7 +33,8 @@
           "src/main/java/net/mcreator/terefereagd/item/RadianItem.java",
           "src/main/resources/assets/terefereagd/models/item/radian.json"
         ]
-      }
+      },
+      "path": "~/folder_1"
     }
   ],
   "variable_elements": [],
@@ -47,7 +48,12 @@
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "folder_1",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "terefereagd",
