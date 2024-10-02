@@ -20,7 +20,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Procedures"
     },
     {
       "name": "Radian",
@@ -34,7 +35,7 @@
           "src/main/resources/assets/terefereagd/models/item/radian.json"
         ]
       },
-      "path": "~/folder_1"
+      "path": "~/Items"
     }
   ],
   "variable_elements": [],
@@ -50,7 +51,11 @@
     "name": "~",
     "children": [
       {
-        "name": "folder_1",
+        "name": "Items",
+        "children": []
+      },
+      {
+        "name": "Procedures",
         "children": []
       }
     ]
