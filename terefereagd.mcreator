@@ -1,0 +1,68 @@
+{
+  "mod_elements": [
+    {
+      "name": "RadianEated",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radian_eated",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/terefereagd/procedures/RadianEatedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Radian",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radian",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/terefereagd/item/RadianItem.java",
+          "src/main/resources/assets/terefereagd/models/item/radian.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.terefereagd.radian": "Radian"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "terefereagd",
+    "modName": "Terefere\u0026AGD",
+    "version": "1.0.0",
+    "author": "Jakub i Adam, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.mcreator.terefereagd"
+  },
+  "mcreatorVersion": 202400232117
+}
