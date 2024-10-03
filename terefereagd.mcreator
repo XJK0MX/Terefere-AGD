@@ -3,7 +3,7 @@
     {
       "name": "Radian",
       "type": "item",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "radian",
       "metadata": {
@@ -65,7 +65,6 @@
     "modName": "Terefere\u0026AGD",
     "version": "1.0.0",
     "author": "XJK0MX",
-    "websiteURL": "https://mcreator.net",
     "license": "All Rights Reserved",
     "serverSideOnly": false,
     "requiredMods": [
