@@ -1,14 +1,28 @@
 {
   "mod_elements": [
     {
-      "name": "RadianEated",
+      "name": "Radian",
+      "type": "item",
+      "compiles": false,
+      "locked_code": false,
+      "registry_name": "radian",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/terefereagd/item/RadianItem.java",
+          "src/main/resources/assets/terefereagd/models/item/radian.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "RadianPlayerFinishesUsingItem",
       "type": "procedure",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "radian_eated",
+      "registry_name": "radian_player_finishes_using_item",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/terefereagd/procedures/RadianEatedProcedure.java"
+          "src/main/java/net/mcreator/terefereagd/procedures/RadianPlayerFinishesUsingItemProcedure.java"
         ],
         "dependencies": [
           {
@@ -22,20 +36,6 @@
         ]
       },
       "path": "~/Procedures"
-    },
-    {
-      "name": "Radian",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "radian",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/terefereagd/item/RadianItem.java",
-          "src/main/resources/assets/terefereagd/models/item/radian.json"
-        ]
-      },
-      "path": "~/Items"
     }
   ],
   "variable_elements": [],

@@ -6,7 +6,7 @@ import net.minecraft.world.damagesource.DamageTypes;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.core.registries.Registries;
 
-public class RadianEatedProcedure {
+public class RadianPlayerFinishesUsingItemProcedure {
 	public static void execute(LevelAccessor world, Entity entity) {
 		if (entity == null)
 			return;

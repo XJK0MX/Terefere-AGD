@@ -40,7 +40,7 @@
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "onFinishUsingItem": {
-      "name": "RadianEated"
+      "name": "RadianPlayerFinishesUsingItem"
     },
     "enableRanged": false,
     "shootConstantly": false,
