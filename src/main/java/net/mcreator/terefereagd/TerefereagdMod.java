@@ -18,7 +18,9 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.terefereagd.init.TerefereagdModTabs;
+import net.mcreator.terefereagd.init.TerefereagdModMobEffects;
 import net.mcreator.terefereagd.init.TerefereagdModItems;
+import net.mcreator.terefereagd.init.TerefereagdModBlocks;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -40,9 +42,13 @@ public class TerefereagdMod {
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
+		TerefereagdModBlocks.REGISTRY.register(bus);
+
 		TerefereagdModItems.REGISTRY.register(bus);
 
 		TerefereagdModTabs.REGISTRY.register(bus);
+
+		TerefereagdModMobEffects.REGISTRY.register(bus);
 
 		// Start of user code block mod init
 		// End of user code block mod init

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "terefereagd:block/radian_block_texture",
+    "up": "terefereagd:block/radian_block_texture",
+    "north": "terefereagd:block/radian_block_texture",
+    "east": "terefereagd:block/radian_block_texture",
+    "south": "terefereagd:block/radian_block_texture",
+    "west": "terefereagd:block/radian_block_texture",
+    "particle": "terefereagd:block/radian_block_texture"
+  },
+  "render_type": "solid"
+}

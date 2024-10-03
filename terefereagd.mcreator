@@ -36,15 +36,112 @@
         ]
       },
       "path": "~/Procedures"
+    },
+    {
+      "name": "TerefereAGD",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "terefere_agd",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Tabs"
+    },
+    {
+      "name": "RadianOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radian_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/terefereagd/models/item/radian_ore.json",
+          "src/main/resources/assets/terefereagd/blockstates/radian_ore.json",
+          "src/main/java/net/mcreator/terefereagd/block/RadianOreBlock.java",
+          "src/main/resources/assets/terefereagd/models/block/radian_ore.json",
+          "src/main/resources/data/terefereagd/loot_tables/blocks/radian_ore.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "RadianOreEntityWalksOnTheBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radian_ore_entity_walks_on_the_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/terefereagd/procedures/RadianOreEntityWalksOnTheBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "RadioactiveDecayEffectStartedapplied",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radioactive_decay_effect_startedapplied",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/terefereagd/procedures/RadioactiveDecayEffectStartedappliedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "RadioactiveDecay",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radioactive_decay",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/terefereagd/potion/RadioactiveDecayMobEffect.java"
+        ]
+      },
+      "path": "~/Potions"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
-  "tag_elements": {},
+  "tag_elements": {
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:RadianOre"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:RadianOre"
+    ]
+  },
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "item.terefereagd.radian": "Radian"
+      "block.terefereagd.radian_ore": "Radian Ore",
+      "effect.terefereagd.radioactive_decay": "Radioactive Decay",
+      "item.terefereagd.radian": "Radian",
+      "item_group.terefereagd.terefere_agd": "Terefere AGD"
     }
   },
   "foldersRoot": {
@@ -56,6 +153,18 @@
       },
       {
         "name": "Procedures",
+        "children": []
+      },
+      {
+        "name": "Tabs",
+        "children": []
+      },
+      {
+        "name": "Blocks",
+        "children": []
+      },
+      {
+        "name": "Potions",
         "children": []
       }
     ]

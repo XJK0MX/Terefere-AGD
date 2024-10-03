@@ -1,3 +1,6 @@
 {
-  "item.terefereagd.radian": "Radian"
+  "block.terefereagd.radian_ore": "Radian Ore",
+  "effect.terefereagd.radioactive_decay": "Radioactive Decay",
+  "item.terefereagd.radian": "Radian",
+  "item_group.terefereagd.terefere_agd": "Terefere AGD"
 }
