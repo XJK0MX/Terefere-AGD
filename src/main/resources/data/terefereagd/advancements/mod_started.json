@@ -1,0 +1,26 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "terefereagd:radian"
+    },
+    "title": {
+      "translate": "advancements.mod_started.title"
+    },
+    "description": {
+      "translate": "advancements.mod_started.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "mod_started_0": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "rewards": {
+    "experience": 10
+  }
+}

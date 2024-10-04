@@ -20,6 +20,8 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.mcreator.terefereagd.init.TerefereagdModTabs;
 import net.mcreator.terefereagd.init.TerefereagdModMobEffects;
 import net.mcreator.terefereagd.init.TerefereagdModItems;
+import net.mcreator.terefereagd.init.TerefereagdModFluids;
+import net.mcreator.terefereagd.init.TerefereagdModFluidTypes;
 import net.mcreator.terefereagd.init.TerefereagdModBlocks;
 
 import java.util.function.Supplier;
@@ -50,6 +52,8 @@ public class TerefereagdMod {
 
 		TerefereagdModMobEffects.REGISTRY.register(bus);
 
+		TerefereagdModFluids.REGISTRY.register(bus);
+		TerefereagdModFluidTypes.REGISTRY.register(bus);
 		// Start of user code block mod init
 		// End of user code block mod init
 	}

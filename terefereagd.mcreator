@@ -123,6 +123,36 @@
         ]
       },
       "path": "~/Potions"
+    },
+    {
+      "name": "ModStarted",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mod_started",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/terefereagd/advancements/mod_started.json"
+        ]
+      }
+    },
+    {
+      "name": "Oil",
+      "type": "fluid",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oil",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/terefereagd/fluid/types/OilFluidType.java",
+          "src/main/java/net/mcreator/terefereagd/fluid/OilFluid.java",
+          "src/main/java/net/mcreator/terefereagd/item/OilItem.java",
+          "src/main/resources/assets/terefereagd/models/item/oil_bucket.json",
+          "src/main/resources/assets/terefereagd/blockstates/oil.json",
+          "src/main/resources/assets/terefereagd/models/block/oil.json",
+          "src/main/java/net/mcreator/terefereagd/block/OilBlock.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -130,6 +160,9 @@
   "tag_elements": {
     "BLOCKS:minecraft:needs_iron_tool": [
       "~CUSTOM:RadianOre"
+    ],
+    "BLOCKS:minecraft:replaceable": [
+      "~CUSTOM:Oil"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
       "~CUSTOM:RadianOre"
@@ -140,7 +173,12 @@
     "en_us": {
       "block.terefereagd.radian_ore": "Radian Ore",
       "effect.terefereagd.radioactive_decay": "Radioactive Decay",
+      "fluid.terefereagd.oil": "Oil",
+      "advancements.mod_started.descr": "you\u0027re playing with Terefere\u0026AGD Mod, Have Fun ;)",
+      "item.terefereagd.oil_bucket": "Oil Bucket",
+      "block.terefereagd.oil": "Oil",
       "item.terefereagd.radian": "Radian",
+      "advancements.mod_started.title": "Mod Started",
       "item_group.terefereagd.terefere_agd": "Terefere AGD"
     }
   },

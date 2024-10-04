@@ -20,6 +20,7 @@ public class TerefereagdModTabs {
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.terefereagd.terefere_agd")).icon(() -> new ItemStack(TerefereagdModItems.RADIAN.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(TerefereagdModItems.RADIAN.get());
 				tabData.accept(TerefereagdModBlocks.RADIAN_ORE.get().asItem());
+				tabData.accept(TerefereagdModItems.OIL_BUCKET.get());
 			})
 
 					.build());

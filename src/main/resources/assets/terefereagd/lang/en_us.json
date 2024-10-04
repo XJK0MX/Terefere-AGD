@@ -1,6 +1,11 @@
 {
   "block.terefereagd.radian_ore": "Radian Ore",
   "effect.terefereagd.radioactive_decay": "Radioactive Decay",
+  "fluid.terefereagd.oil": "Oil",
+  "advancements.mod_started.descr": "you\u0027re playing with Terefere\u0026AGD Mod, Have Fun ;)",
+  "item.terefereagd.oil_bucket": "Oil Bucket",
+  "block.terefereagd.oil": "Oil",
   "item.terefereagd.radian": "Radian",
+  "advancements.mod_started.title": "Mod Started",
   "item_group.terefereagd.terefere_agd": "Terefere AGD"
 }

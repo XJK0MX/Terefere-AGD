@@ -13,12 +13,14 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.terefereagd.item.RadianItem;
+import net.mcreator.terefereagd.item.OilItem;
 import net.mcreator.terefereagd.TerefereagdMod;
 
 public class TerefereagdModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, TerefereagdMod.MODID);
 	public static final RegistryObject<Item> RADIAN = REGISTRY.register("radian", () -> new RadianItem());
 	public static final RegistryObject<Item> RADIAN_ORE = block(TerefereagdModBlocks.RADIAN_ORE);
+	public static final RegistryObject<Item> OIL_BUCKET = REGISTRY.register("oil_bucket", () -> new OilItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items
