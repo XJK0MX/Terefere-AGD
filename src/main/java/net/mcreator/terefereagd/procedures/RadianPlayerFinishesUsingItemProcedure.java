@@ -1,15 +1,11 @@
 package net.mcreator.terefereagd.procedures;
 
 import net.minecraft.world.level.LevelAccessor;
-import net.minecraft.world.entity.Entity;
-import net.minecraft.world.damagesource.DamageTypes;
-import net.minecraft.world.damagesource.DamageSource;
-import net.minecraft.core.registries.Registries;
+import net.minecraft.world.level.Level;
 
 public class RadianPlayerFinishesUsingItemProcedure {
-	public static void execute(LevelAccessor world, Entity entity) {
-		if (entity == null)
-			return;
-		entity.hurt(new DamageSource(world.registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(DamageTypes.EXPLOSION)), 100);
+	public static void execute(LevelAccessor world, double x, double y, double z) {
+		if (world instanceof Level _level && !_level.isClientSide())
+			_level.explode(null, x, y, z, 15, Level.ExplosionInteraction.TNT);
 	}
 }

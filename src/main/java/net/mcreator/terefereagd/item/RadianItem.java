@@ -45,7 +45,7 @@ public class RadianItem extends Item {
 		double x = entity.getX();
 		double y = entity.getY();
 		double z = entity.getZ();
-		RadianPlayerFinishesUsingItemProcedure.execute(world, entity);
+		RadianPlayerFinishesUsingItemProcedure.execute(world, x, y, z);
 		return retval;
 	}
 }

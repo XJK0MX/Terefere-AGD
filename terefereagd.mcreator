@@ -8,8 +8,8 @@
       "registry_name": "radian",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/terefereagd/item/RadianItem.java",
-          "src/main/resources/assets/terefereagd/models/item/radian.json"
+          "src/main/resources/assets/terefereagd/models/item/radian.json",
+          "src/main/java/net/mcreator/terefereagd/item/RadianItem.java"
         ]
       },
       "path": "~/Items"
@@ -26,8 +26,16 @@
         ],
         "dependencies": [
           {
-            "name": "entity",
-            "type": "entity"
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
           },
           {
             "name": "world",
