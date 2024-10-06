@@ -3,14 +3,8 @@
   "temperature": 0.5,
   "downfall": 0.5,
   "effects": {
-    "particle": {
-      "options": {
-        "type": "explosion"
-      },
-      "probability": 0.005
-    },
     "foliage_color": -13095388,
-    "grass_color": -6858976,
+    "grass_color": -5863315,
     "sky_color": -14274775,
     "fog_color": -14274775,
     "water_color": -16711883,
@@ -19,10 +13,10 @@
   "spawners": {
     "monster": [
       {
-        "type": "tnt",
-        "weight": 20,
-        "minCount": 4,
-        "maxCount": 4
+        "type": "cave_spider",
+        "weight": 15,
+        "minCount": 2,
+        "maxCount": 2
       }
     ],
     "creature": [],

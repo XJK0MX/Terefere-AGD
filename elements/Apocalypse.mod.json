@@ -17,7 +17,7 @@
       "falpha": 0.0
     },
     "grassColor": {
-      "value": -6858976,
+      "value": -5863315,
       "falpha": 0.0
     },
     "foliageColor": {
@@ -45,7 +45,7 @@
       "value": ""
     },
     "moodSoundDelay": 6000,
-    "spawnParticles": true,
+    "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"
     },
@@ -121,11 +121,11 @@
     "spawnEntries": [
       {
         "entity": {
-          "value": "EntityTNTPrimed"
+          "value": "EntityCaveSpider"
         },
-        "minGroup": 4,
-        "maxGroup": 4,
-        "weight": 20,
+        "minGroup": 2,
+        "maxGroup": 2,
+        "weight": 15,
         "spawnType": "monster"
       }
     ]
