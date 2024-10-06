@@ -4,8 +4,8 @@
   "definition": {
     "name": "Oil",
     "bucketName": "Oil Bucket",
-    "textureStill": "test_texture",
-    "textureFlowing": "test_texture",
+    "textureStill": "oil_texture_flow",
+    "textureFlowing": "oil_texture_still",
     "tintType": "No tint",
     "canMultiply": false,
     "flowRate": 40,
@@ -22,7 +22,7 @@
     "temperature": 300,
     "type": "LAVA",
     "generateBucket": true,
-    "textureBucket": "minecraft:axolotl_bucket",
+    "textureBucket": "oil_texture_bucket",
     "creativeTabs": [
       {
         "value": "CUSTOM:TerefereAGD"
@@ -42,6 +42,9 @@
     "tickRate": 0,
     "flammability": 0,
     "fireSpreadSpeed": 0,
-    "colorOnMap": "DEFAULT"
+    "colorOnMap": "DEFAULT",
+    "onEntityCollides": {
+      "name": "OilMobplayerCollidesBlock"
+    }
   }
 }
