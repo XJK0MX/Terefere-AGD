@@ -2,7 +2,7 @@
   "_fv": 66,
   "_type": "structure",
   "definition": {
-    "structure": "reactor1",
+    "structure": "small_reactor",
     "projection": "rigid",
     "ignoredBlocks": [
       {
@@ -10,7 +10,7 @@
       }
     ],
     "spacing": 10,
-    "separation": 2,
+    "separation": 4,
     "restrictionBiomes": [
       {
         "value": "CUSTOM:Apocalypse"
