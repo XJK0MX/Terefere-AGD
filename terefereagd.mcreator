@@ -160,7 +160,8 @@
           "src/main/java/net/mcreator/terefereagd/block/OilBlock.java",
           "src/main/java/net/mcreator/terefereagd/item/OilItem.java"
         ]
-      }
+      },
+      "path": "~/Fluids"
     },
     {
       "name": "OilMobplayerCollidesBlock",
@@ -204,7 +205,8 @@
           "src/main/resources/assets/terefereagd/particles/radian_particles.json",
           "src/main/java/net/mcreator/terefereagd/client/particle/RadianParticlesParticle.java"
         ]
-      }
+      },
+      "path": "~/Particles"
     },
     {
       "name": "Reactor1",
@@ -218,7 +220,8 @@
           "src/main/resources/data/terefereagd/worldgen/structure_set/reactor_1.json",
           "src/main/resources/data/terefereagd/worldgen/template_pool/reactor_1.json"
         ]
-      }
+      },
+      "path": "~/Structures"
     }
   ],
   "variable_elements": [],
