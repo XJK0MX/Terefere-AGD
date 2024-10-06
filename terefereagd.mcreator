@@ -205,6 +205,20 @@
           "src/main/java/net/mcreator/terefereagd/client/particle/RadianParticlesParticle.java"
         ]
       }
+    },
+    {
+      "name": "Reactor1",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reactor_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/terefereagd/worldgen/structure/reactor_1.json",
+          "src/main/resources/data/terefereagd/worldgen/structure_set/reactor_1.json",
+          "src/main/resources/data/terefereagd/worldgen/template_pool/reactor_1.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -269,6 +283,18 @@
       },
       {
         "name": "Biomes",
+        "children": []
+      },
+      {
+        "name": "Fluids",
+        "children": []
+      },
+      {
+        "name": "Particles",
+        "children": []
+      },
+      {
+        "name": "Structures",
         "children": []
       }
     ]
