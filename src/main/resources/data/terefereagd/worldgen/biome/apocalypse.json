@@ -3,6 +3,12 @@
   "temperature": 0.5,
   "downfall": 0.5,
   "effects": {
+    "particle": {
+      "options": {
+        "type": "terefereagd:radian_particles"
+      },
+      "probability": 0.005
+    },
     "foliage_color": -13095388,
     "grass_color": -4946081,
     "sky_color": -14274775,

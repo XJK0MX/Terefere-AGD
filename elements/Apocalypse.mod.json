@@ -45,9 +45,9 @@
       "value": ""
     },
     "moodSoundDelay": 6000,
-    "spawnParticles": false,
+    "spawnParticles": true,
     "particleToSpawn": {
-      "value": "EXPLOSION_NORMAL"
+      "value": "CUSTOM:RadianParticles"
     },
     "particlesProbability": 0.5,
     "rainingPossibility": 0.5,
