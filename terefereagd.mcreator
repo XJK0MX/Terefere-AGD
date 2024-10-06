@@ -145,12 +145,30 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/terefereagd/fluid/types/OilFluidType.java",
-          "src/main/java/net/mcreator/terefereagd/fluid/OilFluid.java",
-          "src/main/java/net/mcreator/terefereagd/item/OilItem.java",
-          "src/main/resources/assets/terefereagd/models/item/oil_bucket.json",
-          "src/main/resources/assets/terefereagd/blockstates/oil.json",
           "src/main/resources/assets/terefereagd/models/block/oil.json",
-          "src/main/java/net/mcreator/terefereagd/block/OilBlock.java"
+          "src/main/resources/assets/terefereagd/models/item/oil_bucket.json",
+          "src/main/java/net/mcreator/terefereagd/fluid/OilFluid.java",
+          "src/main/resources/assets/terefereagd/blockstates/oil.json",
+          "src/main/java/net/mcreator/terefereagd/block/OilBlock.java",
+          "src/main/java/net/mcreator/terefereagd/item/OilItem.java"
+        ]
+      }
+    },
+    {
+      "name": "OilMobplayerCollidesBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oil_mobplayer_collides_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/terefereagd/procedures/OilMobplayerCollidesBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
         ]
       }
     }

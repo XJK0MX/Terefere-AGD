@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "minecraft:item/axolotl_bucket"
+    "layer0": "terefereagd:item/oil_texture_bucket"
   }
 }

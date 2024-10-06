@@ -20,7 +20,7 @@ public class OilFluidType extends FluidType {
 	@Override
 	public void initializeClient(Consumer<IClientFluidTypeExtensions> consumer) {
 		consumer.accept(new IClientFluidTypeExtensions() {
-			private static final ResourceLocation STILL_TEXTURE = new ResourceLocation("terefereagd:block/test_texture"), FLOWING_TEXTURE = new ResourceLocation("terefereagd:block/test_texture");
+			private static final ResourceLocation STILL_TEXTURE = new ResourceLocation("terefereagd:block/oil_texture_flow"), FLOWING_TEXTURE = new ResourceLocation("terefereagd:block/oil_texture_still");
 
 			@Override
 			public ResourceLocation getStillTexture() {
