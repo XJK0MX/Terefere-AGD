@@ -192,6 +192,19 @@
         ]
       },
       "path": "~/Biomes"
+    },
+    {
+      "name": "RadianParticles",
+      "type": "particle",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radian_particles",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/terefereagd/particles/radian_particles.json",
+          "src/main/java/net/mcreator/terefereagd/client/particle/RadianParticlesParticle.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],

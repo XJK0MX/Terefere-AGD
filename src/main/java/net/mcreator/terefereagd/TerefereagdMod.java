@@ -18,6 +18,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.terefereagd.init.TerefereagdModTabs;
+import net.mcreator.terefereagd.init.TerefereagdModParticleTypes;
 import net.mcreator.terefereagd.init.TerefereagdModMobEffects;
 import net.mcreator.terefereagd.init.TerefereagdModItems;
 import net.mcreator.terefereagd.init.TerefereagdModFluids;
@@ -51,6 +52,8 @@ public class TerefereagdMod {
 		TerefereagdModTabs.REGISTRY.register(bus);
 
 		TerefereagdModMobEffects.REGISTRY.register(bus);
+
+		TerefereagdModParticleTypes.REGISTRY.register(bus);
 
 		TerefereagdModFluids.REGISTRY.register(bus);
 		TerefereagdModFluidTypes.REGISTRY.register(bus);
