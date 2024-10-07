@@ -23,6 +23,7 @@ import net.mcreator.terefereagd.init.TerefereagdModMobEffects;
 import net.mcreator.terefereagd.init.TerefereagdModItems;
 import net.mcreator.terefereagd.init.TerefereagdModFluids;
 import net.mcreator.terefereagd.init.TerefereagdModFluidTypes;
+import net.mcreator.terefereagd.init.TerefereagdModEntities;
 import net.mcreator.terefereagd.init.TerefereagdModBlocks;
 
 import java.util.function.Supplier;
@@ -48,6 +49,7 @@ public class TerefereagdMod {
 		TerefereagdModBlocks.REGISTRY.register(bus);
 
 		TerefereagdModItems.REGISTRY.register(bus);
+		TerefereagdModEntities.REGISTRY.register(bus);
 
 		TerefereagdModTabs.REGISTRY.register(bus);
 
