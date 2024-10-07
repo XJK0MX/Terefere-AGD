@@ -65,8 +65,8 @@ public class TerefereagdModBiomes {
 					SurfaceRules.RuleSource currentRuleSource = noiseGeneratorSettings.surfaceRule();
 					if (currentRuleSource instanceof SurfaceRules.SequenceRuleSource sequenceRuleSource) {
 						List<SurfaceRules.RuleSource> surfaceRules = new ArrayList<>(sequenceRuleSource.sequence());
-						addSurfaceRule(surfaceRules, 1, preliminarySurfaceRule(ResourceKey.create(Registries.BIOME, new ResourceLocation("terefereagd", "apocalypse")), Blocks.GRASS_BLOCK.defaultBlockState(), Blocks.STONE.defaultBlockState(),
-								Blocks.STONE.defaultBlockState()));
+						addSurfaceRule(surfaceRules, 1, preliminarySurfaceRule(ResourceKey.create(Registries.BIOME, new ResourceLocation("terefereagd", "apocalypse")), Blocks.GRASS_BLOCK.defaultBlockState(),
+								TerefereagdModBlocks.BLACK_DIRT.get().defaultBlockState(), TerefereagdModBlocks.BLACK_DIRT.get().defaultBlockState()));
 						NoiseGeneratorSettings moddedNoiseGeneratorSettings = new NoiseGeneratorSettings(noiseGeneratorSettings.noiseSettings(), noiseGeneratorSettings.defaultBlock(), noiseGeneratorSettings.defaultFluid(),
 								noiseGeneratorSettings.noiseRouter(), SurfaceRules.sequence(surfaceRules.toArray(SurfaceRules.RuleSource[]::new)), noiseGeneratorSettings.spawnTarget(), noiseGeneratorSettings.seaLevel(),
 								noiseGeneratorSettings.disableMobGeneration(), noiseGeneratorSettings.aquifersEnabled(), noiseGeneratorSettings.oreVeinsEnabled(), noiseGeneratorSettings.useLegacyRandomSource());

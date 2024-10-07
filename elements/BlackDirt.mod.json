@@ -2,17 +2,17 @@
   "_fv": 66,
   "_type": "block",
   "definition": {
-    "texture": "radian_block_texture",
-    "textureTop": "radian_block_texture",
-    "textureLeft": "radian_block_texture",
-    "textureFront": "radian_block_texture",
-    "textureRight": "radian_block_texture",
-    "textureBack": "radian_block_texture",
+    "texture": "black_dirt_texture",
+    "textureTop": "black_dirt_texture",
+    "textureLeft": "black_dirt_texture",
+    "textureFront": "black_dirt_texture",
+    "textureRight": "black_dirt_texture",
+    "textureBack": "black_dirt_texture",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
     "enablePitch": false,
-    "emissiveRendering": true,
+    "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "",
     "particleTexture": "",
@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "Radian Ore",
+    "name": "Black Dirt",
     "specialInformation": {
       "fixedValue": []
     },
@@ -46,19 +46,19 @@
         "value": "CUSTOM:TerefereAGD"
       }
     ],
-    "destroyTool": "pickaxe",
+    "destroyTool": "Not specified",
     "customDrop": {
-      "value": "CUSTOM:Radian"
+      "value": ""
     },
-    "dropAmount": 9,
+    "dropAmount": 1,
     "useLootTableForDrops": false,
-    "requiresCorrectTool": true,
+    "requiresCorrectTool": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canRedstoneConnect": false,
     "lightOpacity": 15,
     "material": {
-      "value": "ROCK"
+      "value": "SAND"
     },
     "tickRate": 0,
     "tickRandomly": false,
@@ -83,7 +83,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "STONE"
+      "value": "GROUND"
     },
     "breakSound": {
       "value": ""
@@ -100,9 +100,9 @@
     "stepSound": {
       "value": ""
     },
-    "luminance": 4,
+    "luminance": 0,
     "unbreakable": false,
-    "vanillaToolTier": "IRON",
+    "vanillaToolTier": "NONE",
     "isBonemealable": false,
     "hasInventory": false,
     "guiBoundTo": "<NONE>",
@@ -121,30 +121,17 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onEntityWalksOn": {
-      "name": "RadianOreEntityWalksOnTheBlock"
-    },
-    "generateFeature": true,
-    "restrictionBiomes": [
-      {
-        "value": "CUSTOM:Apocalypse"
-      }
-    ],
+    "generateFeature": false,
+    "restrictionBiomes": [],
     "blocksToReplace": [
       {
         "value": "TAG:stone_ore_replaceables"
-      },
-      {
-        "value": "CUSTOM:BlackDirt"
-      },
-      {
-        "value": "Blocks.STONE#0"
       }
     ],
     "generationShape": "UNIFORM",
     "frequencyPerChunks": 10,
-    "frequencyOnChunk": 6,
+    "frequencyOnChunk": 16,
     "minGenerateHeight": 0,
-    "maxGenerateHeight": 256
+    "maxGenerateHeight": 64
   }
 }

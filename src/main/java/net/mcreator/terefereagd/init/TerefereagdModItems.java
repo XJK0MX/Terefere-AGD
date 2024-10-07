@@ -23,6 +23,7 @@ public class TerefereagdModItems {
 	public static final RegistryObject<Item> RADIAN_ORE = block(TerefereagdModBlocks.RADIAN_ORE);
 	public static final RegistryObject<Item> OIL_BUCKET = REGISTRY.register("oil_bucket", () -> new OilItem());
 	public static final RegistryObject<Item> MICROGUY_SPAWN_EGG = REGISTRY.register("microguy_spawn_egg", () -> new ForgeSpawnEggItem(TerefereagdModEntities.MICROGUY, -16711936, -10066330, new Item.Properties()));
+	public static final RegistryObject<Item> BLACK_DIRT = block(TerefereagdModBlocks.BLACK_DIRT);
 
 	// Start of user code block custom items
 	// End of user code block custom items

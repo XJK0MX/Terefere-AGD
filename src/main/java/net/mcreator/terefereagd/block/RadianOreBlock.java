@@ -17,7 +17,7 @@ import net.mcreator.terefereagd.procedures.RadianOreEntityWalksOnTheBlockProcedu
 
 public class RadianOreBlock extends Block {
 	public RadianOreBlock() {
-		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.STONE).strength(1f, 10f).lightLevel(s -> 10).requiresCorrectToolForDrops().hasPostProcess((bs, br, bp) -> true)
+		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.STONE).strength(1f, 10f).lightLevel(s -> 4).requiresCorrectToolForDrops().hasPostProcess((bs, br, bp) -> true)
 				.emissiveRendering((bs, br, bp) -> true));
 	}
 

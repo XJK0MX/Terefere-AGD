@@ -10,7 +10,7 @@
           "name": "terefereagd:radian",
           "functions": [
             {
-              "count": 4,
+              "count": 9,
               "function": "minecraft:set_count"
             },
             {

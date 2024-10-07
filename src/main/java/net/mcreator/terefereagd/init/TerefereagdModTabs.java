@@ -22,6 +22,7 @@ public class TerefereagdModTabs {
 				tabData.accept(TerefereagdModBlocks.RADIAN_ORE.get().asItem());
 				tabData.accept(TerefereagdModItems.OIL_BUCKET.get());
 				tabData.accept(TerefereagdModItems.MICROGUY_SPAWN_EGG.get());
+				tabData.accept(TerefereagdModBlocks.BLACK_DIRT.get().asItem());
 			})
 
 					.build());

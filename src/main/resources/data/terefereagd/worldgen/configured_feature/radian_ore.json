@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:ore",
+  "config": {
+    "size": 6,
+    "discard_chance_on_air_exposure": 0,
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "tag_match",
+          "tag": "stone_ore_replaceables"
+        },
+        "state": {
+          "Name": "terefereagd:radian_ore"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "terefereagd:black_dirt"
+          }
+        },
+        "state": {
+          "Name": "terefereagd:radian_ore"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:stone"
+          }
+        },
+        "state": {
+          "Name": "terefereagd:radian_ore"
+        }
+      }
+    ]
+  }
+}

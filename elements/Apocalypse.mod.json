@@ -7,7 +7,7 @@
       "value": "Blocks.GRASS"
     },
     "undergroundBlock": {
-      "value": "Blocks.STONE#0"
+      "value": "CUSTOM:BlackDirt"
     },
     "underwaterBlock": {
       "value": ""
@@ -17,7 +17,7 @@
       "falpha": 0.0
     },
     "grassColor": {
-      "value": -4946081,
+      "value": -2852814,
       "falpha": 0.0
     },
     "foliageColor": {
@@ -25,7 +25,7 @@
       "falpha": 0.0
     },
     "waterColor": {
-      "value": -13653944,
+      "value": -12919460,
       "falpha": 0.0
     },
     "waterFogColor": {
