@@ -4,7 +4,7 @@
   "definition": {
     "name": "Apocalypse",
     "groundBlock": {
-      "value": "Blocks.GRASS"
+      "value": "CUSTOM:ApocalypseGrassBlock"
     },
     "undergroundBlock": {
       "value": "CUSTOM:BlackDirt"

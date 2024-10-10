@@ -9,8 +9,8 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.core.BlockPos;
 
-public class BlackDirtBlock extends Block {
-	public BlackDirtBlock() {
+public class ApocalypseGrassBlockBlock extends Block {
+	public ApocalypseGrassBlockBlock() {
 		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.GRAVEL).strength(0.8f, 10f));
 	}
 

@@ -306,11 +306,33 @@
         ]
       },
       "path": "~/Items/Tools"
+    },
+    {
+      "name": "ApocalypseGrassBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "apocalypse_grass_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/terefereagd/blockstates/apocalypse_grass_block.json",
+          "src/main/resources/assets/terefereagd/models/block/apocalypse_grass_block.json",
+          "src/main/resources/data/terefereagd/loot_tables/blocks/apocalypse_grass_block.json",
+          "src/main/resources/assets/terefereagd/models/item/apocalypse_grass_block.json",
+          "src/main/java/net/mcreator/terefereagd/block/ApocalypseGrassBlockBlock.java"
+        ]
+      },
+      "path": "~/Blocks"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {
+    "BLOCKS:minecraft:dirt": [
+      "CUSTOM:ApocalypseGrassBlock",
+      "CUSTOM:BlackDirt",
+      "TAG:minecraft:dirt"
+    ],
     "BLOCKS:minecraft:needs_iron_tool": [
       "~CUSTOM:RadianOre"
     ],
@@ -331,9 +353,20 @@
     ],
     "BIOMES:minecraft:has_structure/mineshaft": [
       "~CUSTOM:Apocalypse"
+    ],
+    "BIOMES:minecraft:is_overworld": []
+  },
+  "tab_element_order": {
+    "CUSTOM:TerefereAGD": [
+      "Radian",
+      "MicroPickaxe",
+      "RadianOre",
+      "Oil",
+      "Microguy",
+      "BlackDirt",
+      "ApocalypseGrassBlock"
     ]
   },
-  "tab_element_order": {},
   "language_map": {
     "en_us": {
       "effect.terefereagd.radioactive_decay": "Radioactive Decay",
@@ -346,6 +379,7 @@
       "block.terefereagd.radian_ore": "Radian Ore",
       "biome.terefereagd.apocalypse": "Apocalypse",
       "fluid.terefereagd.oil": "Oil",
+      "block.terefereagd.apocalypse_grass_block": "Apocalypse Grass Block",
       "block.terefereagd.oil": "Oil",
       "item.terefereagd.radian": "Radian",
       "entity.terefereagd.microguy": "Microguy",
@@ -406,6 +440,10 @@
       },
       {
         "name": "Mobs",
+        "children": []
+      },
+      {
+        "name": "Tags",
         "children": []
       }
     ]

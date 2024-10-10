@@ -1,0 +1,11 @@
+{
+  "parent": "block/grass_block",
+  "textures": {
+    "bottom": "terefereagd:block/apocalypsegrass",
+    "top": "terefereagd:block/apocalypse_grass_block_top_texture",
+    "side": "terefereagd:block/apocalypse_grass_block_texture",
+    "overlay": "terefereagd:block/apocalypse_grass_block_texture",
+    "particle": "terefereagd:block/apocalypsegrass"
+  },
+  "render_type": "solid"
+}

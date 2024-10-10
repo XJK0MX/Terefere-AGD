@@ -1,13 +1,13 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "terefereagd:block/black_dirt_texture",
-    "up": "terefereagd:block/black_dirt_texture",
-    "north": "terefereagd:block/black_dirt_texture",
-    "east": "terefereagd:block/black_dirt_texture",
-    "south": "terefereagd:block/black_dirt_texture",
-    "west": "terefereagd:block/black_dirt_texture",
-    "particle": "terefereagd:block/black_dirt_texture"
+    "down": "terefereagd:block/apocalypsedirt",
+    "up": "terefereagd:block/apocalypsedirt",
+    "north": "terefereagd:block/apocalypsedirt",
+    "east": "terefereagd:block/apocalypsedirt",
+    "south": "terefereagd:block/apocalypsedirt",
+    "west": "terefereagd:block/apocalypsedirt",
+    "particle": "terefereagd:block/apocalypsedirt"
   },
   "render_type": "solid"
 }

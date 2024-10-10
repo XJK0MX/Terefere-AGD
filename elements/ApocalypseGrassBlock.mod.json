@@ -2,14 +2,14 @@
   "_fv": 66,
   "_type": "block",
   "definition": {
-    "texture": "apocalypsedirt",
-    "textureTop": "apocalypsedirt",
-    "textureLeft": "apocalypsedirt",
-    "textureFront": "apocalypsedirt",
-    "textureRight": "apocalypsedirt",
-    "textureBack": "apocalypsedirt",
-    "renderType": 10,
-    "customModelName": "Normal",
+    "texture": "apocalypsegrass",
+    "textureTop": "apocalypse_grass_block_top_texture",
+    "textureLeft": "apocalypse_grass_block_texture",
+    "textureFront": "apocalypse_grass_block_texture",
+    "textureRight": "apocalypse_grass_block_texture",
+    "textureBack": "apocalypse_grass_block_texture",
+    "renderType": 14,
+    "customModelName": "Grass block",
     "rotationMode": 0,
     "enablePitch": false,
     "emissiveRendering": false,
@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "Black Dirt",
+    "name": "Apocalypse Grass Block",
     "specialInformation": {
       "fixedValue": []
     },
@@ -48,7 +48,7 @@
     ],
     "destroyTool": "Not specified",
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:BlackDirt"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
