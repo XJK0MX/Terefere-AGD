@@ -15,6 +15,7 @@ import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.terefereagd.item.RadianItem;
 import net.mcreator.terefereagd.item.OilItem;
+import net.mcreator.terefereagd.item.MicroPickaxeItem;
 import net.mcreator.terefereagd.TerefereagdMod;
 
 public class TerefereagdModItems {
@@ -24,6 +25,7 @@ public class TerefereagdModItems {
 	public static final RegistryObject<Item> OIL_BUCKET = REGISTRY.register("oil_bucket", () -> new OilItem());
 	public static final RegistryObject<Item> MICROGUY_SPAWN_EGG = REGISTRY.register("microguy_spawn_egg", () -> new ForgeSpawnEggItem(TerefereagdModEntities.MICROGUY, -16711936, -10066330, new Item.Properties()));
 	public static final RegistryObject<Item> BLACK_DIRT = block(TerefereagdModBlocks.BLACK_DIRT);
+	public static final RegistryObject<Item> RADIAN_PICKAXE = REGISTRY.register("radian_pickaxe", () -> new MicroPickaxeItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

@@ -1,0 +1,44 @@
+{
+  "_fv": 66,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Pickaxe",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "radianpickaxe",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Radian Pickaxe",
+    "specialInformation": {
+      "fixedValue": [
+        "rafał rafał rafał"
+      ]
+    },
+    "creativeTabs": [
+      {
+        "value": "TOOLS"
+      }
+    ],
+    "efficiency": 6.0,
+    "attackSpeed": 1.0,
+    "enchantability": 4,
+    "damageVsEntity": 5.0,
+    "usageCount": 100,
+    "glowCondition": {
+      "fixedValue": true
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:Radian"
+      }
+    ],
+    "immuneToFire": false,
+    "blockDropsTier": "IRON",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "MicroPickaxeLivingEntityIsHitWithTool"
+    }
+  }
+}
